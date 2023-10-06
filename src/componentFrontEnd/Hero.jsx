@@ -1,6 +1,5 @@
 // import content
 import { useEffect, useState } from "react";
-import { content } from "../Content";
 import Profile from "../api/ProFile";
 const Hero = () => {
   const [heroData, setData] = useState({

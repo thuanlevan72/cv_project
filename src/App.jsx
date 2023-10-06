@@ -16,20 +16,25 @@ import { useRoutes } from "react-router-dom";
 
 const App = () => {
   let routes = [
-    { path: "/", element: <FrontEndComponent>
-        <Navbar />
-        <Hero />
-        <Skills />
-        <Service />
-        <Projects />
-        <Testimonials />
-        <Hireme />
-        <Contact />
-        <footer className="p-3 text-center">
-        <h6 className="mb-3">THUẬN LÊ</h6>
-        <p>vì cuộc sống hướng tới tương lai (2024)</p>
-      </footer>
-      </FrontEndComponent> },
+    {
+      path: "/",
+      element: (
+        <FrontEndComponent>
+          <Navbar />
+          <Hero />
+          <Skills />
+          <Service />
+          <Projects />
+          <Testimonials />
+          <Hireme />
+          <Contact />
+          <footer className="p-3 text-center">
+            <h6 className="mb-3">THUẬN LÊ</h6>
+            <p>vì cuộc sống hướng tới tương lai (2024)</p>
+          </footer>
+        </FrontEndComponent>
+      ),
+    },
   ];
   let element = useRoutes(routes);
   useEffect(() => {
@@ -39,11 +44,7 @@ const App = () => {
       disable: "mobile",
     });
   }, []);
-  return (
-    <>
-    {element}
-    </>    
-  );
+  return <>{element}</>;
 };
 
 export default App;

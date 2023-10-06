@@ -1,6 +1,5 @@
 // import content
 import { useEffect, useState } from "react";
-import Profile from "../api/ProFile";
 const Hero = () => {
   const [heroData, setData] = useState({
     id: 1,
@@ -25,8 +24,28 @@ const Hero = () => {
     getDataHero();
   }, []);
   const getDataHero = async () => {
-    const data = await Profile.GetFrofile({});
-    setData(data);
+    setData({
+      id: 1,
+      firstName: "THUẬN",
+      LastName: "LÊ",
+      birthday: "2000/4/1",
+      title: "Web Developer",
+      btnText: "Xem Ngay",
+      describe:
+        "Xin chào, tôi là Nguyễn Văn A, một lập trình viên fullstack với rất nhiều kinh nghiệm trong lĩnh vực web development. Tôi có thể sử dụng thành thạo nhiều công nghệ và ngôn ngữ lập trình như React, Vue, Angular, PHP, JS, C#, .NET, Java, Spring và nhiều hơn nữa. Tôi luôn tìm kiếm những thách thức mới và cơ hội học hỏi để nâng cao kỹ năng của mình. Tôi mong muốn được hợp tác với các bạn trong dự án này",
+      image:
+        "https://antimatter.vn/wp-content/uploads/2022/05/anh-gif-co-be-trong-long-kinh.gif",
+      heroContent: [
+        {
+          count: "2",
+          text: "Năm kinh nghiệp trong làm Web",
+        },
+        {
+          count: "12",
+          text: "Dự án đã làm trong sự nghiệp của tôi",
+        },
+      ],
+    });
   };
 
   return (

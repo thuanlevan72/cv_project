@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import { content } from "../Content";
 import Profile from "../api/ProFile";
 const Hero = () => {
-  let { hero } = content;
-  const [heroData,setData] = useState({
+  const [heroData, setData] = useState({
     id: 1,
     title: "",
     firstName: "",
@@ -20,15 +19,16 @@ const Hero = () => {
         count: "12+",
         text: "Dự án đã làm trong sự nghiệp của tôi",
       },
-    ],});
-  
-  useEffect(  () => {
+    ],
+  });
+
+  useEffect(() => {
     getDataHero();
-  },[])
+  }, []);
   const getDataHero = async () => {
-  const data = await Profile.GetFrofile({});
-  setData(data);
-  }
+    const data = await Profile.GetFrofile({});
+    setData(data);
+  };
 
   return (
     <section id="home" className="overflow-hidden">
@@ -36,8 +36,7 @@ const Hero = () => {
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
-          className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
-        >
+          className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10">
           <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
             {heroData.firstName}{" "}
             <span className="text-dark_primary">{heroData.LastName}</span>
@@ -58,8 +57,7 @@ const Hero = () => {
                 data-aos="fade-down"
                 data-aos-delay={i * 300}
                 className={`flex items-center w-80 gap-5
-            ${i === 1 && " flex-row-reverse text-right"}  `}
-              >
+            ${i === 1 && " flex-row-reverse text-right"}  `}>
                 <h3>{content.count}+</h3>
                 <p>{content.text}</p>
               </div>

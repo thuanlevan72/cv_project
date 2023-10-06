@@ -74,6 +74,7 @@
     {
         "id": 1,
         "nameProject": "memid",
+        "link": "https://memid.online/",
         "imageProject": "https://th.bing.com/th/id/R.ba5cb5ad398e3623536c060bcbdac29e?rik=gakRUJQ1VwQQ4A&pid=ImgRaw&r=0",
         "describeProject": "đây là dự án làm cho khách hàng nhật để xây dựng 1 ứng dụng giúp kết nối các nhà cung cấp dịch vụ với khách hàng một cách nhanh gọn hơn",
         "startTime": "2020/2/2",

@@ -128,11 +128,18 @@ export const content = {
         title: "MemId",
         image:
           "https://th.bing.com/th/id/R.ba5cb5ad398e3623536c060bcbdac29e?rik=gakRUJQ1VwQQ4A&pid=ImgRaw&r=0",
+        link: "https://memid.online/",
       },
       {
-        title: "DIDONGVIET",
+        title: "Polyfood",
         image:
-          "https://hrchannels.com/Upload/avatar/20220624/111905828_logoDDVnew.png",
+          "https://res.cloudinary.com/do9rcgv5s/image/upload/v1692137209/e2nw6oqvtlvpqmdwtmnh.png",
+        link: "https://polyfood.store",
+      },
+      {
+        title: "Sendo",
+        image: "https://media3.scdn.vn/img3/2019/12_4/q5bS5n.jpg",
+        link: "https://sendo-one.vercel.app",
       },
       // {
       //   title: "Creative Website",
@@ -141,31 +148,36 @@ export const content = {
     ],
   },
   Testimonials: {
-    title: "Lời BÌnh",
-    subtitle: "Họ Nói Về Tôi",
+    title: "Lời Bình",
+    subtitle: "Những Lời Nhận Xét",
     testimonials_content: [
       {
-        review: "“anh ấy là 1 người rất chi là sạo quần”",
+        review:
+          "“Tôi rất ấn tượng với kiến thức và kỹ năng của anh ấy. Anh ấy đã giúp tôi rất nhiều trong dự án của mình.”",
         img: "https://c4.wallpaperflare.com/wallpaper/410/558/539/anime-anime-girls-underboob-liang-xing-wallpaper-preview.jpg",
-        name: "Trần Minh Quân",
+        name: "Nguyễn Văn A",
       },
       {
-        review: "“anh ấy là 1 người làm thì ít mà đi copy thì nhiều”",
+        review:
+          "“Anh ấy luôn luôn chuyên nghiệp và tận tâm trong công việc. Tôi rất hạnh phúc khi được làm việc cùng anh ấy.”",
         img: "https://c4.wallpaperflare.com/wallpaper/138/378/568/wlop-violet-evergarden-anime-anime-girls-wallpaper-preview.jpg",
-        name: "Trần Minh Quân",
+        name: "Nguyễn Thị B",
       },
       {
-        review: "“anh ấy là 1 người không chỉ hay thích chỉ huy",
+        review:
+          "“Anh ấy có khả năng tư duy logic và giải quyết vấn đề rất tốt. Tôi luôn luôn tin tưởng vào khả năng của anh ấy.”",
         img: "https://c4.wallpaperflare.com/wallpaper/227/583/604/anime-anime-girls-digital-art-artwork-2d-hd-wallpaper-preview.jpg",
-        name: "Trần Minh Quân",
+        name: "Trần Văn C",
       },
       {
-        review: "“anh ấy rất thông minh đó là ai nói chứ tôi không nghĩ vậy”",
+        review:
+          "“Anh ấy thật sự là một người thông minh. Tôi luôn ngưỡng mộ tài năng của anh ấy.”",
         img: "https://c4.wallpaperflare.com/wallpaper/617/733/79/anime-anime-girls-aoi-ogata-wallpaper-preview.jpg",
-        name: "Trần Minh Quân",
+        name: "Lê Thị D",
       },
     ],
   },
+
   Hireme: {
     title: "Nói về tôi",
     subtitle: "Nhận Xét Của Tôi",

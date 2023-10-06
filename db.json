@@ -1,0 +1,140 @@
+{
+  "profile": [
+    {
+        "id": 1,
+        "firstName": "THUẬN",
+        "LastName": "LÊ",
+        "birthday": "2000/4/1",
+        "title":  "Web Developer",
+        "btnText": "Xem Ngay",
+        "describe": "Xin chào, tôi là Nguyễn Văn A, một lập trình viên fullstack với rất nhiều kinh nghiệm trong lĩnh vực web development. Tôi có thể sử dụng thành thạo nhiều công nghệ và ngôn ngữ lập trình như React, Vue, Angular, PHP, JS, C#, .NET, Java, Spring và nhiều hơn nữa. Tôi luôn tìm kiếm những thách thức mới và cơ hội học hỏi để nâng cao kỹ năng của mình. Tôi mong muốn được hợp tác với các bạn trong dự án này",
+        "image": "https://antimatter.vn/wp-content/uploads/2022/05/anh-gif-co-be-trong-long-kinh.gif",
+        "heroContent": [
+          {
+            "count": "2",
+            "text": "Năm kinh nghiệp trong làm Web"
+          },
+          {
+            "count": "12",
+            "text": "Dự án đã làm trong sự nghiệp của tôi"
+          }
+        ]
+    }
+  ],
+  "schools" : [
+    {
+        "id": 1,
+        "schoolName": "trường đại học fpt",
+        "startTime": "2020/2/2",
+        "endTime": "2024/2/2",
+        "graduation": 9,
+        "achievements": "đây là ngôi trường đem lại cho mình rất nhiêu kinh nghiệm cung như trải nghiệp mà em đã được trải nghiệm trên mái trường đại học này"
+    }
+  ],
+  "skills": [
+    {
+        "id": 1,
+        "skillName": "php",
+         "image": "https://e7.pngegg.com/pngimages/759/987/png-clipart-php-computer-icons-web-development-logo-icon-text-trademark.png",
+        "general": "lập trình php nâng cao"
+    },
+    {
+        "id": 2,
+        "skillName": "js",
+        "image": "https://www.clipartmax.com/png/middle/470-4707396_javascript-icon-html-css-js-icons.png",
+        "general": "lập trình js nâng cao"
+    },
+    {
+        "id": 3,
+        "skillName": "C#",
+        "image": "https://e7.pngegg.com/pngimages/328/221/png-clipart-c-programming-language-logo-microsoft-visual-studio-net-framework-javascript-icon-purple-logo.png",
+        "general": "lập trình C# nâng cao"
+    },
+     {
+      "id": 4,
+      "skillName": "Figma",
+      "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+      "general": "Thiết kế các giao diện về web trên figma"
+     },
+     {
+      "id": 5,
+      "skillName": "React",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+      "general": "Code giao diện trang web bằng react"
+     },
+     {
+      "id": 6,
+      "skillName": "Node JS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
+      "general": "Sử dụng Node.js để phát triển các ứng dụng back-end"
+     }
+
+  ],
+  "projects": [
+    {
+        "id": 1,
+        "nameProject": "memid",
+        "imageProject": "https://th.bing.com/th/id/R.ba5cb5ad398e3623536c060bcbdac29e?rik=gakRUJQ1VwQQ4A&pid=ImgRaw&r=0",
+        "describeProject": "đây là dự án làm cho khách hàng nhật để xây dựng 1 ứng dụng giúp kết nối các nhà cung cấp dịch vụ với khách hàng một cách nhanh gọn hơn",
+        "startTime": "2020/2/2",
+        "endTime": "2024/2/2"
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "imageIcon": "https://upload.wikimedia.org/wikipedia/commons/6/63/Code_Icon.PNG",
+      "title": "Phát triển web",
+      "subTitle": "Xây dựng trang web động, web ứng dụng (web app), cửa hàng trực tuyến (e-commerce) hoặc blog cá nhân"
+    },
+    {
+      "id": 2,
+      "imageIcon": "https://cdn-icons-png.flaticon.com/512/3159/3159310.png",
+      "title": "ui / ux DESIGNING",
+      "subTitle": "Thiết kế giao diện người dùng (UI) và trải nghiệm người dùng (UX) cho các trang web, ứng dụng web hoặc sản phẩm khác"
+    },
+
+    {
+      "id": 3,
+      "imageIcon": "https://cdn-icons-png.flaticon.com/512/1827/1827951.png",
+      "title": "PhotoShop Editing",
+      "subTitle": "sử dụng Photoshop để tạo các mẫu trang web, định hình lại các hình ảnh và thiết kế các phần tử đồ họa khác trên trang web"
+    }
+
+
+  ],
+  "contact": [
+    {
+        "id": 1,
+        "email": "thuanlevan72@gmail.com",
+        "name": "lê văn thuận",
+        "phone": "0352988596",
+        "content": "bạn quá là ghê tôi cũng muốn thấy bạn ngoài đời nếu bạn có thể thấy tôi"
+    }
+    
+  ], "socialMedia": [
+    {
+      "id": 1,
+      "text": "thuanlevan72@gmail.com",
+      "icon": "https://t4.ftcdn.net/jpg/05/25/22/63/360_F_525226337_x7lLRcnU08vDLkijRwgcbaIs8zCfDktC.jpg",
+      "link": "thuanlevan72@gmail.com"
+    },
+    {
+      "id": 2,
+      "text": "+84 352 988 596",
+      "icon": "https://cdn-icons-png.flaticon.com/512/46/46854.png",
+      "link": "0352988596"
+    },
+    {
+      "id": 3,
+      "text": "Facebook",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png",
+      "link": "https://www.facebook.com/thuanlevan72"
+    },{
+      "id": 4,
+      "text": "Address",
+      "icon": "https://i.pinimg.com/originals/f0/a4/17/f0a4170e43fae6a84ff990b6df105199.png",
+      "link": "https://www.facebook.com/thuanlevan72"
+    }
+     ]
+}

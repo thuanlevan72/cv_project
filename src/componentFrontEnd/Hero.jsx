@@ -6,6 +6,7 @@ const Hero = () => {
     title: "",
     firstName: "",
     LastName: "",
+    đâsd
     image:
       "https://antimatter.vn/wp-content/uploads/2022/05/anh-gif-co-be-trong-long-kinh.gif",
     heroContent: [
